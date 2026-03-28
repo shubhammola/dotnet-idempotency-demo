@@ -91,6 +91,8 @@ Step 1: Send the first request
 
 Expected result:  
 The API processes the request and returns a success response indicating that the order has been created.
+<img width="812" height="148" alt="Screenshot 2026-03-28 at 12 17 04" src="https://github.com/user-attachments/assets/8137f024-810b-48c7-8a2c-2043d2d62714" />
+
 
 Step 2: Send the same request again with the same key  
 - Method: POST  
@@ -99,6 +101,7 @@ Step 2: Send the same request again with the same key
 
 Expected result:  
 The API detects the duplicate request and returns the previously stored response instead of creating a new order.
+<img width="806" height="139" alt="Screenshot 2026-03-28 at 12 17 14" src="https://github.com/user-attachments/assets/cfa087c0-642d-4b59-bbae-0de1d8f5617e" />
 
 ---
 
